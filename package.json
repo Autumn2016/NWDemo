@@ -1,0 +1,44 @@
+{
+  "window": {
+    "title": "erp-agent",
+    "icon": "icon.ico",
+    "toolbar": true,
+    "frame": true,
+    "width": 1024,
+    "height": 650,
+    "position": "center",
+    "min_width": 1024,
+    "min_height": 650
+  },
+  "nodejs": true,
+  "name": "YTAGENT",
+  "version": "1.0.0",
+  "description": "数据转换中心",
+  "main": "./login.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "romens",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "knex": "^0.11.5",
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+    "mssql": "^3.3.0",
+    "node-uglifier": "^0.4.5",
+    "socket.io": "^1.4.6",
+    "socket.io-client": "=1.4.8",
+    "sprintf-js": "^1.0.3",
+    "stack-trace": "0.0.9",
+    "superagent": "^2.0.0",
+    "tedious": "^1.14.0",
+    "tedious-connection-pool": "^1.0.1",
+    "uglify-js": "^2.7.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "node-webkit-builder": "^1.0.13",
+    "nw-builder": "^2.2.0"
+  }
+}
